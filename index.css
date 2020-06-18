@@ -47,17 +47,22 @@ table {
 	border-spacing: 0;
 }
 
-* {
+/* * {
 	background-color: fuchsia;
-}
-
-header nav {
-	display: flex;
-	align-items: right;
-}
+} */
 
 h1 {
-	color: forestgreen;
+	color: darkgreen;
+	font-size: 5rem;
+}
+
+nav {
+	display: flex;
+}
+
+a {
+	margin: 5px;
+	
 }
 
 img {
