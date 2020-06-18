@@ -51,6 +51,21 @@ table {
 	background-color: fuchsia;
 }
 
-h1 {
-	color: green;
+header nav {
+	display: flex;
+	align-items: right;
 }
+
+h1 {
+	color: forestgreen;
+}
+
+img {
+	border: 10px;
+	margin: 10px; 
+	padding: 10px;
+}
+
+	/* display: flex;
+	flex-direction: column;
+	justify-content: space-evenl
