@@ -47,13 +47,10 @@ table {
 	border-spacing: 0;
 }
 
-/* * {
-	background-color: fuchsia;
-} */
-
 h1 {
 	color: darkgreen;
 	font-size: 5rem;
+	color: #191970;
 }
 
 nav {
@@ -62,13 +59,21 @@ nav {
 
 a {
 	margin: 5px;
+	text-decoration: none;
+	color: #191970;
+	font-size: 2rem;
 
 }
 
-img {
-	border: 10px;
-	margin: 10px; 
-	padding: 10px;
+.headshots {
+	display: flex;
+	justify-content: space-between;
+	margin: 5px;
+	width: 20rem;
+
+	border-radius: 2rem;
+	
+
 }
 
 .greenery {
@@ -76,6 +81,3 @@ img {
 	margin: 2px;
 }
 
-	/* display: flex;
-	flex-direction: column;
-	justify-content: space-evenl
