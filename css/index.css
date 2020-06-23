@@ -48,14 +48,12 @@ table {
   background-color: #F5FFFA;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: rgb(143, 177, 143);
 }
 
 .b2 {
     background-image: url(/images/home.jpg);
-    /* background-repeat: no-repeat;
-    background-size: cover; */
-    /* background-image: none; */
-    /* background-color: rgb(169, 197, 169);    */
+    background-color: rgb(143, 177, 143);
 }
 
 h1 {
@@ -64,18 +62,13 @@ color: #2F4F4F;
 margin: 5px;
 border-top: 100px;
 }
-
+/* 
 nav {
-  /* margin-right: 0px; */
-    /* /* display: flex;  */
-  /* flex-direction: row;
-  align-items: baseline;  */ */
-  /* flex-wrap: wrap;
-  /* margin: 50px; */
-}  
+ text-align: right;
+}   */
 
 a  {
-  margin: 80px;
+  margin: 100px;
   text-decoration: none;
   font-size: 2rem;
   color: #F5FFFA;
@@ -128,4 +121,8 @@ h2 {
     font-size: 2rem;
     text-align: center;
     color: #2F4F4F;
+}
+
+@media(max-width: 500px){
+
 }
