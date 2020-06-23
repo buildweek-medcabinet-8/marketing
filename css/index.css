@@ -51,8 +51,11 @@ table {
 }
 
 .b2 {
-    background-image: none;
-    background-color: rgb(169, 197, 169);   
+    background-image: url(/images/home.jpg);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-image: none; */
+    /* background-color: rgb(169, 197, 169);    */
 }
 
 h1 {
@@ -88,7 +91,10 @@ a  {
 
 p {
   font-size: 1.5rem;
-  margin: 5rem;
+  font-style: italic;
+  margin: 3rem 50rem 5rem 1rem;
+  color: #2F4F4F;
+  text-decoration: italic;
 }
 
 .team {
@@ -114,10 +120,12 @@ display: flex;
 flex-direction: row; 
 justify-content:center;
 align-items:  flex-end;
+color: #2F4F4F;
 /* flex-wrap: wrap;  */
 }
 
 h2 {
     font-size: 2rem;
     text-align: center;
+    color: #2F4F4F;
 }
