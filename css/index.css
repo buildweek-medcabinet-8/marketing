@@ -45,7 +45,7 @@ table {
 
 .home {
   background-image: url(/images/home.jpg);
-  background-color: #F5FFFA;
+  background-color: rgb(143, 177, 143);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(143, 177, 143);
@@ -125,4 +125,25 @@ h2 {
 
 @media(max-width: 500px){
 
+    .home {
+     background-image: url(/images/home.jpg);
+
+    .headerclass {
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+    }
+
+    a {
+      margin: 3px;
+    }
+
+    p {
+      text-align: center;
+      margin: 20px;
+    }
+    .team {
+      display: flex;
+      flex-direction: column;
+    }
 }
