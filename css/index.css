@@ -138,22 +138,37 @@ h2 {
 }
 
 @media(max-width:500px) {
-
-    .home {
-     background-image: url(/images/home.jpg);
-
+    
     .headerclass {
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      /* justify-content: center; */
+      margin: 0px auto;
+    } 
+
+    h1 {
+      margin: 0px auto;
     }
 
-    a {
+    /* a {
       display: flex;
       flex-direction: column;
       margin: 3px;
       justify-content: center;
+    } */
+
+    nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin: 0px auto;
+    } 
+
+    a {
+      margin: 20px;
+      font-size: 1.5rem;
     }
+
 
     p {
       text-align: center;
