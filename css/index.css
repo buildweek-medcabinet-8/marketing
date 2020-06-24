@@ -42,6 +42,14 @@ table {
     border-spacing: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+  margin-bottom: 50px;
+}
 
 .home {
   background-image: url(/images/home.jpg);
@@ -62,30 +70,33 @@ color: #2F4F4F;
 margin: 5px;
 border-top: 100px;
 }
-/* 
-nav {
- text-align: right;
-}   */
 
 a  {
-  margin: 100px;
+  margin: 0px 0px 0px 220px;
   text-decoration: none;
   font-size: 2rem;
   color: #F5FFFA;
 }  
 
+.nav2 {
+  color: #2F4F4F;
+}
+
 .headerclass {
    display: flex;
    flex-direction: row;
-   align-items: baseline;
-   /* justify-content: space-evenly; */
-   
+   align-items: baseline; 
+}
+
+#header2 {
+  border-bottom: solid #2F4F4F;
+  margin: 15px;
 }
 
 p {
   font-size: 1.5rem;
   font-style: italic;
-  margin: 3rem 50rem 5rem 1rem;
+  margin: 1rem 65rem 0rem 1rem;
   color: #2F4F4F;
   text-decoration: italic;
 }
@@ -100,15 +111,17 @@ p {
 
 .headshots {
  display: flex;
-margin: 40px;
-width: 25rem;
-border-radius: 4rem;
-border: 20px solid transparent;
-box-sizing: border-box;
+ margin: 45px;
+ margin-bottom: 10px;
+ margin-top: 100px;
+ width: 27rem;
+ border-radius: 2rem;
+ border: 20px solid shadow;
+ box-sizing: border-box;
 }
 
 .names {
-font-size: 2rem;
+font-size: 1.8rem;
 display: flex;
 flex-direction: row; 
 justify-content:center;
@@ -121,9 +134,10 @@ h2 {
     font-size: 2rem;
     text-align: center;
     color: #2F4F4F;
+    margin-bottom: 0px;
 }
 
-@media(max-width: 500px){
+@media(max-width:500px) {
 
     .home {
      background-image: url(/images/home.jpg);
@@ -131,11 +145,14 @@ h2 {
     .headerclass {
       display: flex;
       flex-direction: column;
-      justify-content:center;
+      justify-content: center;
     }
 
     a {
+      display: flex;
+      flex-direction: column;
       margin: 3px;
+      justify-content: center;
     }
 
     p {
