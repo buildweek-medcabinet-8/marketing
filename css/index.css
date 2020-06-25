@@ -78,6 +78,7 @@ font-size: 5rem;
 color: #2F4F4F;
 margin: 5px;
 border-top: 100px;
+text-shadow: 2px 2px 5px;
 }
 
 a  {
@@ -122,6 +123,7 @@ a  {
   text-align: right;
   margin-top: 50px;
   /* justify-content: space-around; */
+  text-shadow: 2px 2px 5px #696969;
 }
 
 .listTitle {
@@ -141,6 +143,7 @@ h2 {
   text-align: center;
   color: #2F4F4F;
   margin-top: 50px;
+  text-shadow: 1px 1px 1px;
 }
 
 .team {
@@ -165,6 +168,7 @@ h2 {
  border: 5px solid #2F4F4F;
  /* padding-right: 20px; */
  box-sizing: border-box;
+ box-shadow: 3px 3px 5px grey;
 }
 
 .names {
@@ -175,6 +179,7 @@ justify-content:center;
 padding: 5px;
 align-items:  flex-end;
 color: #2F4F4F;
+text-shadow: 1px 1px 1px;
 /* flex-wrap: wrap;  */
 }
 
