@@ -86,11 +86,12 @@ a  {
   text-decoration: none;
   font-size: 2rem;
   color: #F5FFFA;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px grey;
 }  
 
 .nav2 {
   color: #2F4F4F;
+  text-shadow: 1px 1px 1px grey;
 }
 
 .headerclass {
@@ -112,7 +113,7 @@ a  {
   margin: 1rem 65rem 0rem 1.4rem;
   color: #2F4F4F;
   text-decoration: italic;
-  text-shadow: .5px .5px;
+  text-shadow: .5px .5px grey;
 } 
 
 .marketing {
@@ -125,6 +126,7 @@ a  {
   /* margin-right: 25px; */
   text-align: right;
   margin-top: 30px;
+  margin-right: 20px;
   /* justify-content: space-around; */
   text-shadow: 2px 2px 5px #696969;
 }
