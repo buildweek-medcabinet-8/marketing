@@ -47,6 +47,7 @@ table {
 }
 
 body {
+  height: 100%;
   padding: 10px;
   margin-bottom: 50px;
 }
@@ -56,7 +57,15 @@ body {
   background-color: rgb(143, 177, 143);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgb(143, 177, 143);
+  
+}
+
+.mediaImg {
+  background-image: url(/images/home.jpg);
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  display: none;
 }
 
 .b2 {
@@ -86,6 +95,7 @@ a  {
    display: flex;
    flex-direction: row;
    align-items: baseline; 
+   border-bottom: solid #F5FFFA;
 }
 
 #header2 {
@@ -93,12 +103,44 @@ a  {
   margin: 15px;
 }
 
-p {
+.mission {
   font-size: 1.5rem;
   font-style: italic;
   margin: 1rem 65rem 0rem 1rem;
   color: #2F4F4F;
   text-decoration: italic;
+} 
+
+.marketing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color:  #F5FFFA;
+  /* font-size: 2rem; */
+  /* margin-top: 50px; */
+  /* margin-right: 25px; */
+  text-align: right;
+  margin-top: 50px;
+  /* justify-content: space-around; */
+}
+
+.listTitle {
+  font-size: 3.5rem;
+}
+
+.benefit {
+  margin-top: 50px;
+  margin-right: 25px;
+  font-style: italic;
+  font-size: 2rem;
+} 
+
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: #2F4F4F;
+  margin-top: 50px;
 }
 
 .team {
@@ -111,12 +153,17 @@ p {
 
 .headshots {
  display: flex;
- margin: 45px;
+ /* margin: 45px 0px 45px 40px; */
+ /* margin-bottom: 2px; */
  margin-bottom: 10px;
- margin-top: 100px;
+ margin-top: 70px;
+ margin-left: 30px;
+ margin-right: 30px;
+ /* margin-top: 100px; */
  width: 27rem;
  border-radius: 2rem;
- border: 20px solid shadow;
+ border: 5px solid #2F4F4F;
+ /* padding-right: 20px; */
  box-sizing: border-box;
 }
 
@@ -125,37 +172,65 @@ font-size: 1.8rem;
 display: flex;
 flex-direction: row; 
 justify-content:center;
+padding: 5px;
 align-items:  flex-end;
 color: #2F4F4F;
 /* flex-wrap: wrap;  */
 }
 
-h2 {
-    font-size: 2rem;
-    text-align: center;
-    color: #2F4F4F;
-    margin-bottom: 0px;
+button {
+  border-radius: 1rem;
+  width: 200px;
+  height: 70px;
+  margin-left: 1150px;
+  font-size: 1.5rem;
+  background-color: #F5FFFA; 
+  color: #2F4F4F;
 }
+
+.link {
+  margin-top: 45px;
+}
+
+
+/* footer {
+  display: flex;
+  flex-direction: row;
+}  */
 
 @media(max-width:500px) {
     
+    .home {
+      background: none;
+      background-color: rgb(143, 177, 143);
+    }
+
+    .mediaImg {
+      display: block;
+      width: 100%;
+      height: 375px;
+      border: 5px solid #F5FFFA; 
+      border-radius: 1rem;
+    }
+
+    .marketing {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
     .headerclass {
       display: flex;
       flex-direction: column;
       /* justify-content: center; */
       margin: 0px auto;
+      border-bottom: solid #2F4F4F;
+      margin: 15px;
     } 
 
     h1 {
       margin: 0px auto;
     }
-
-    /* a {
-      display: flex;
-      flex-direction: column;
-      margin: 3px;
-      justify-content: center;
-    } */
 
     nav {
       display: flex;
@@ -170,12 +245,27 @@ h2 {
     }
 
 
-    p {
+    .mission {
       text-align: center;
       margin: 20px;
+      padding-bottom: 20px;
     }
+
     .team {
       display: flex;
       flex-direction: column;
+    }
+
+    .headshots {
+      margin: 35px 5px 5px 25px; 
+    }
+
+    .names {
+      margin-bottom: 30px;
+    }
+
+    button {
+      margin: 0px auto;
+      align: center;
     }
 }
