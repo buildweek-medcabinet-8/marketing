@@ -24,7 +24,7 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
-    line-height: 1;
+    line-height: 1; 
 }
 ol, ul {
     list-style: none;
@@ -44,6 +44,7 @@ table {
 
 body {
   height: 100%;
+  width: 100%; 
 }
 
 .home {
@@ -76,9 +77,9 @@ text-shadow: 2px 2px 5px;
 }
 
 a  {
-  margin: 0px 0px 0px 220px;
+  margin: 0px 0px 0px 230px;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #F5FFFA;
   text-shadow: 1px 1px 1px grey;
 }  
@@ -101,13 +102,20 @@ a  {
   margin: 15px;
 }
 
+/* .flexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} */
+
 .mission {
   font-size: 1.5rem;
   font-style: italic;
-  margin: 1rem 65rem 0rem 1.4rem;
   color: #2F4F4F;
   text-decoration: italic;
   text-shadow: .5px .5px grey;
+  width: 400px;
+  margin-left: 20px;
 } 
 
 .marketing {
@@ -118,6 +126,7 @@ a  {
   text-align: right;
   margin-right: 20px;
   text-shadow: 2px 2px 5px #696969;
+  /* width: 2000px; */
 }
 
 .listTitle {
@@ -175,14 +184,14 @@ button {
   border-radius: 1.5rem;
   width: 210px;
   height: 80px;
-  margin-left: 1150px;
+  margin-left: 900px;
   font-size: 1.7rem;
   background-color: #F5FFFA; 
   color: #2F4F4F;
 }
 
 .link {
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 footer {
@@ -198,6 +207,81 @@ footer {
   font-size: 1.5rem;
   color: #F5FFFA;
   padding-top: 120px;
+}
+
+@media(max-width:800px) {
+
+  .home {
+    background: none;
+    background-color: rgb(143, 177, 143);
+  }
+
+  .mediaImg {
+    display: block;
+    width: 95%;
+    height: 375px;
+    border: 2px solid #F5FFFA;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 5px #F5FFFA;
+    margin: 0px auto;
+  }
+
+
+  .headerclass {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid #2F4F4F;
+  } 
+
+  h1 {
+    margin: 0px auto;
+  } 
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px auto;
+  } 
+
+  a {
+    margin: 20px;
+    font-size: 1.5rem;
+  }
+
+  .mission {
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 20px;
+  }
+
+  .marketing {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0px auto;
+  }
+
+  .listTitle {
+    font-size: 2.5rem;
+    padding-bottom: 50px; 
+    margin: 0px auto;
+  }
+
+  .benefit {
+    margin-top: 20px;
+  }
+
+  button {
+    margin-left: 100px;
+
+  }
+
+  .link {
+    margin-left: 150px;
+    margin-top: 10px;
+  }
 }
 
 @media(max-width:500px) {
@@ -221,17 +305,17 @@ footer {
       display: flex;
       flex-direction: column;
       text-align: center;
-      padding-top: 40px;
+      padding-top: 20px;
       margin: 0px auto;
     }
 
     .listTitle {
       font-size: 2.5rem;
-      margin-bottom: 50px; 
+      margin-bottom: 20px; 
     }
 
     .benefit {
-      margin-top: 30px;
+      margin-top: 20px;
       margin-left: 30px;
     }
 
@@ -259,8 +343,9 @@ footer {
 
     .mission {
       text-align: center;
-      margin: 20px;
-      padding-bottom: 20px;
+      margin: 0px auto;
+      padding-top: 10px;
+      padding-bottom: 30px;
     }
 
     .team {
@@ -281,7 +366,7 @@ footer {
     }
 
     .link {
-      margin-left: 150px;
+      margin-left: 125px;
       margin-top: 75px;
     }
 }
