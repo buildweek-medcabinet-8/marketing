@@ -251,7 +251,7 @@ footer {
 
   .mission {
     text-align: center;
-    margin: 20px;
+    margin: 0px auto;
     padding-bottom: 20px;
   }
 
@@ -274,13 +274,18 @@ footer {
   }
 
   button {
-    margin-left: 100px;
-
+    margin: 0px auto;
   }
 
   .link {
-    margin-left: 150px;
-    margin-top: 10px;
+    margin-left: 125px;
+    margin-top: 75px;
+  }
+}
+
+  .link {
+    margin-left: 190px;
+    margin-top: 80px;
   }
 }
 
